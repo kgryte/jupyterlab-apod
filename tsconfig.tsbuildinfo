@@ -733,8 +733,20 @@
         "version": "7a7e8dec050f4ad9d6b093812a3a203acb13a32364079db20f7a6fde38f8427c",
         "signature": "7a7e8dec050f4ad9d6b093812a3a203acb13a32364079db20f7a6fde38f8427c"
       },
+      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/random_date.ts": {
+        "version": "329f059c239b56ac17c8e236108b79a14dec3e9e235154c714f51fa315876e9f",
+        "signature": "054ef8ddc5a42b1ed24d3fa20b78522927bd80ad059e1896e226720a908efea7"
+      },
+      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/apod_widget.ts": {
+        "version": "a36dbcd5de6fba19baf26d0d328b0a309ecbe5903e5971cbd8217dae05a3d890",
+        "signature": "b5078b1d44fc740c3ae4a2136222a367255423ca022e323839f2db17fd9e5422"
+      },
+      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/activate.ts": {
+        "version": "0abd71632417e499734059a7fb02c607143768a8a20431f30a07e34804a9bc95",
+        "signature": "4127716d87fb2f487fdf7eabf8dd1b504215a27431acffc6eb37ab2c9e224f33"
+      },
       "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/index.ts": {
-        "version": "41d54f6e6a53f8af9d5879b03ab029d7093aff4c6e013f8cff2ce328cc543ef1",
+        "version": "7c1bc30a4d1f3e1cd0afb18a9947c50ac4ec734455cec431544909d3ed96c076",
         "signature": "81ba1fc39f0133d2894ffacbba6dcd6f0464f2f10f0442afae4bd1796fa235c6"
       }
     },
@@ -1572,10 +1584,20 @@
         "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/application/lib/status.d.ts",
         "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/application/lib/tokens.d.ts"
       ],
+      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/apod_widget.ts": [
+        "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@phosphor/widgets/lib/index.d.ts",
+        "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/random_date.ts"
+      ],
+      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/activate.ts": [
+        "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/application/lib/index.d.ts",
+        "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/apputils/lib/index.d.ts",
+        "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/apod_widget.ts"
+      ],
       "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/index.ts": [
         "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/application/lib/index.d.ts",
         "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/apputils/lib/index.d.ts",
-        "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@phosphor/widgets/lib/index.d.ts"
+        "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/activate.ts"
       ]
     },
     "exportedModulesMap": {
@@ -2389,6 +2411,14 @@
         "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/application/lib/status.d.ts",
         "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/application/lib/tokens.d.ts"
       ],
+      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/apod_widget.ts": [
+        "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@phosphor/messaging/lib/index.d.ts",
+        "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@phosphor/widgets/lib/index.d.ts"
+      ],
+      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/activate.ts": [
+        "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/application/lib/index.d.ts",
+        "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/apputils/lib/index.d.ts"
+      ],
       "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/index.ts": [
         "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/application/lib/index.d.ts"
       ]
@@ -2577,7 +2607,10 @@
       "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/application/lib/mimerenderers.d.ts",
       "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/application/lib/router.d.ts",
       "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/application/lib/index.d.ts",
-      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/index.ts"
+      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/random_date.ts",
+      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/apod_widget.ts",
+      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/index.ts",
+      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/activate.ts"
     ]
   },
   "version": "3.5.3"
