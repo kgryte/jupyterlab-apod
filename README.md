@@ -9,7 +9,7 @@ Show a random NASA Astronomy Picture of the Day in a JupyterLab panel.
 ## Installation
 
 ```bash
-jupyter labextension install jupyterlab-apod
+jupyter labextension install @kgryte/jupyterlab-apod
 ```
 
 ## Development
