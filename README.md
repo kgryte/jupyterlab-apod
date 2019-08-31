@@ -2,7 +2,6 @@
 
 Show a random NASA Astronomy Picture of the Day in a JupyterLab panel.
 
-
 ## Prerequisites
 
 * JupyterLab
@@ -29,4 +28,3 @@ To rebuild the package and the JupyterLab app:
 npm run build
 jupyter lab build
 ```
-

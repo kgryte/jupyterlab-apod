@@ -2608,9 +2608,9 @@
       "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/application/lib/router.d.ts",
       "/users/kgryte/coding/projects/quansight/jupyterlab_apod/node_modules/@jupyterlab/application/lib/index.d.ts",
       "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/random_date.ts",
+      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/apod_widget.ts",
       "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/activate.ts",
-      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/index.ts",
-      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/apod_widget.ts"
+      "/users/kgryte/coding/projects/quansight/jupyterlab_apod/src/index.ts"
     ]
   },
   "version": "3.5.3"
