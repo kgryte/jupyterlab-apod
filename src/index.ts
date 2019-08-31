@@ -1,4 +1,5 @@
 import {
+	ILayoutRestorer,
 	JupyterFrontEndPlugin
 } from '@jupyterlab/application';
 
@@ -16,7 +17,7 @@ import {
 const extension: JupyterFrontEndPlugin<void> = {
 	'id': 'jupyterlab_apod',
 	'autoStart': true,
-	'requires': [ ICommandPalette ],
+	'requires': [ ICommandPalette, ILayoutRestorer ],
 	'activate': activate
 };
 

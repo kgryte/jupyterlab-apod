@@ -58,15 +58,17 @@ export class APODWidget extends Widget {
 		const date = randomDate();
 
 		// Fetch info about a random picture:
-		const response = await fetch( `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${date}` );
-		if ( !response.ok ) {
-			const data = await response.json();
-			if ( data.error ) {
-				this.summary.innerText = data.error.message;
-			} else {
-				this.summary.innerText = response.statusText;
+		while ( true ) {
+			const response = await fetch( `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${date}` );
+			if ( !response.ok ) {
+				const data = await response.json();
+				if ( data.error ) {
+					this.summary.innerText = data.error.message;
+				} else {
+					this.summary.innerText = response.statusText;
+				}
+				break;
 			}
-		} else {
 			const data = await response.json() as APODResponse;
 			if ( data.media_type === 'image' ) {
 				// Populate the image:
@@ -76,9 +78,9 @@ export class APODWidget extends Widget {
 				if ( data.copyright ) {
 					this.summary.innerText += ` (Copyright ${data.copyright})`;
 				}
-			} else {
-				this.summary.innerText = 'Random APOD fetched was not an image.';
+				break;
 			}
+			console.log( 'Random APOD fetched was not an image.' );
 		}
 	}
 }
