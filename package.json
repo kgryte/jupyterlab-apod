@@ -1,5 +1,5 @@
 {
-  "name": "@kgryte/jupyterlab_apod",
+  "name": "@kgryte/jupyterlab-apod",
   "version": "0.0.0",
   "description": "Show a random NASA Astronomy Picture of the Day in a JupyterLab panel.",
   "keywords": [
@@ -7,9 +7,9 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/kgryte/jupyterlab_apod",
+  "homepage": "https://github.com/kgryte/jupyterlab-apod",
   "bugs": {
-    "url": "https://github.com/kgryte/jupyterlab_apod/issues"
+    "url": "https://github.com/kgryte/jupyterlab-apod/issues"
   },
   "license": "BSD-3-Clause",
   "author": "Athan Reines",
@@ -22,7 +22,7 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kgryte/jupyterlab_apod.git"
+    "url": "https://github.com/kgryte/jupyterlab-apod.git"
   },
   "scripts": {
     "build": "tsc",
